@@ -25,10 +25,10 @@ switch(process.platform) {
 		config = require("./platform/win32");
 		break;
 	case "linux":
-		config = require("./platform/linux");
+		config = require("./platform/linux-primary");
 		break;
 	case "freebsd":
-		config = require("./platform/linux");
+		config = require("./platform/linux-primary");
 		break;
 	case "openbsd":
 		config = require("./platform/openbsd");
